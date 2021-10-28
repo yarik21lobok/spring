@@ -2,13 +2,16 @@ package ru.alishev.springcourse;
 
 import org.springframework.stereotype.Component;
 
-/**
- * @author Neil Alishev
- */
-@Component
+import java.util.ArrayList;
+
+
 public class RockMusic implements Music {
     @Override
-    public String getSong() {
-        return "Wind cries Mary";
+    public  ArrayList<String> getSong() {
+        ArrayList<String> songs = new ArrayList<String>();
+        songs.add("Wind cries Mary");
+        songs.add("Human");
+        songs.add("Nothing else matters");
+        return songs;
     }
 }

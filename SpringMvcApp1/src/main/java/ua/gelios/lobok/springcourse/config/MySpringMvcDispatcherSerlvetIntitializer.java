@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.config;
+package ua.gelios.lobok.springcourse.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
